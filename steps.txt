@@ -37,3 +37,6 @@ source : my ip
 jupyter notebook
 
 then copy public dns and paste on browser with 8888
+
+# Topics list
+kafka-topics.sh --bootstrap-server localhost:9092 --list
