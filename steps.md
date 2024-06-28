@@ -1,4 +1,7 @@
-# install kafka
+# Tools used:
+Kafka, ec2, cloud9 ide, jupyter notebook, s3, aws glue crawler, athena(for quering) 
+
+# Install kafka
 wget https://archive.apache.org/dist/kafka/3.3.2/kafka-3.3.2-src.tgz
 tar -xvf kafka-3.3.2-src.tgz
 
@@ -18,7 +21,7 @@ bin/kafka-console-producer.sh --topic my_first_topic --bootstrap-server localhos
 # Start Consumer:
 bin/kafka-console-consumer.sh --topic my_first_topic --bootstrap-server localhost:9092
 
-# install Jupyter:
+# Install Jupyter:
 pip3 install jupyter
 jupyter notebook --generate-config
 nano ~/.jupyter/jupyter_notebook_config.py
